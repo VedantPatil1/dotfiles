@@ -1,6 +1,9 @@
 autoload -Uz compinit
 compinit
 
+bindkey -v
+export KEYTIMEOUT=1
+
 ZSH_CONFIG_DIR="$HOME/.config/dotfiles/zsh"
 
 
